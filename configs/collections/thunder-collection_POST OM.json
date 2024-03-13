@@ -1,0 +1,135 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "POST OM",
+    "dateExported": "2024-03-13T18:45:09.702Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7047b9b9-a351-400c-a9f0-408d677ff161",
+            "colId": "1f4aca86-052a-4da1-a935-e0bb6c8874dd",
+            "containerId": "",
+            "name": "CREATE POST",
+            "url": "http://localhost:8080/opinion/v1/posts",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-13T17:18:11.777Z",
+            "modified": "2024-03-13T18:30:28.989Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxNDM4YmNkY2NiNTYxMzdhM2RlYWEiLCJpYXQiOjE3MTAzNTQ0MDAsImV4cCI6MTcxMDM1ODAwMH0.or2rdUVn61WH3FXMNn4A8E5Zk65LU1mZUA_KGmttpy4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"TEST SECOND POST\",\n  \"category\": \"Tech\",\n  \"content\": \"This is a content for my SECOND post :D\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fdd7df92-688e-46f2-833f-7d49f0f81720",
+            "colId": "1f4aca86-052a-4da1-a935-e0bb6c8874dd",
+            "containerId": "",
+            "name": "get post",
+            "url": "http://localhost:8080/opinion/v1/posts",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-13T17:22:12.347Z",
+            "modified": "2024-03-13T17:22:42.445Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1e916864-6a3d-482e-9148-b5f5f71ca292",
+            "colId": "1f4aca86-052a-4da1-a935-e0bb6c8874dd",
+            "containerId": "",
+            "name": "ADD OPINION",
+            "url": "http://localhost:8080/opinion/v1/posts/65f1f0c4b232a80fe9c2f0ee",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-13T17:24:14.259Z",
+            "modified": "2024-03-13T18:44:09.027Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxNDM5OGNkY2NiNTYxMzdhM2RlYjAiLCJpYXQiOjE3MTAzNTQ2OTYsImV4cCI6MTcxMDM1ODI5Nn0.OosiVnM95vFaWQrfwE20-g6N_TbRUaJ2ojYX07eL9uU"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"opinion\": \"This is an opinion test for test3 IN third POST:D\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "3fadfe20-d973-40da-86b5-a9644692ae2b",
+            "colId": "1f4aca86-052a-4da1-a935-e0bb6c8874dd",
+            "containerId": "",
+            "name": "DELETE POST",
+            "url": "http://localhost:8080/opinion/v1/posts/65f1e0b49afdbf5759224b42",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-13T18:10:07.161Z",
+            "modified": "2024-03-13T18:11:10.220Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxNDM5OGNkY2NiNTYxMzdhM2RlYjAiLCJpYXQiOjE3MTAzNTM0NjIsImV4cCI6MTcxMDM1NzA2Mn0._lmBs04Bbdt9fm2ivPeUHkWr_Tb-K4ab2GBA5LKLCs4"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "438a24af-0f62-4939-a5a3-bb4753462067",
+            "colId": "1f4aca86-052a-4da1-a935-e0bb6c8874dd",
+            "containerId": "",
+            "name": "UPDATE OPINON IN POST",
+            "url": "http://localhost:8080/opinion/v1/posts/myOpinion/65f1e0b49afdbf5759224b42",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-03-13T18:25:20.435Z",
+            "modified": "2024-03-13T18:44:28.011Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxNDM4YmNkY2NiNTYxMzdhM2RlYWEiLCJpYXQiOjE3MTAzNTQ0MDAsImV4cCI6MTcxMDM1ODAwMH0.or2rdUVn61WH3FXMNn4A8E5Zk65LU1mZUA_KGmttpy4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"opinion\": \"changed opinion 22\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "16c51feb-d718-48a8-b28b-274772eb1fc0",
+            "colId": "1f4aca86-052a-4da1-a935-e0bb6c8874dd",
+            "containerId": "",
+            "name": "DELETE OWN OPINION",
+            "url": "http://localhost:8080/opinion/v1/posts/myOpinion/65f1f0c4b232a80fe9c2f0ee",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-03-13T18:36:39.274Z",
+            "modified": "2024-03-13T18:38:06.313Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxNDM5OGNkY2NiNTYxMzdhM2RlYjAiLCJpYXQiOjE3MTAzNTUwMjYsImV4cCI6MTcxMDM1ODYyNn0.JHfoJkphKVV3pdDB446DttKIToFt1Luoa6sGFf0ITdU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

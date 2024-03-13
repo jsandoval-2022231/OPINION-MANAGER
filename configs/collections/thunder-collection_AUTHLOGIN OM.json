@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AUTHLOGIN OM",
+    "dateExported": "2024-03-13T18:45:22.036Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ab9559f4-57ea-4a07-9c1e-54ba82be67f2",
+            "colId": "a8958bdb-0016-43de-85c0-261c95b2cc00",
+            "containerId": "",
+            "name": "LOGIN",
+            "url": "http://localhost:8080/opinion/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-13T06:09:34.829Z",
+            "modified": "2024-03-13T18:31:36.014Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"test3@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
